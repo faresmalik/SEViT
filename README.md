@@ -72,6 +72,10 @@ To perform adversarial detection and save the ROC figure for the generated adver
 python adversarial_detection.py --attack_name [attack_name] --clean_image_folder_path [path to clean images root directory] --attack_image_folder_path [path to root dir of attack images] --vit_path [path to the downloaded ViT model] --mlp_path [path to downloaded MLPs folder]
 ```
 
+## Citation
+```
+TBA
+```
 
 # References
 1. Tawsifur Rahman, Amith Khandakar, Muhammad A. Kadir, Khandaker R. Islam, Khandaker F. Islam, Zaid B. Mahbub, Mohamed Arselene Ayari, Muhammad E. H. Chowdhury. (2020) "Reliable Tuberculosis Detection using Chest X-ray with Deep Learning, Segmentation and Visualization". IEEE Access, Vol. 8, pp 191586 - 191601. DOI. 10.1109/ACCESS.2020.3031384.
