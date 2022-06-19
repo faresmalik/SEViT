@@ -24,13 +24,12 @@ model = torch.load(args.vit_path).cuda()
 model.eval()
 
 
-attacks = Attack(epsilon=args.epsilons, attack_type=args.attack_list, model= model)
-
-
 #Generate and save attacks
 generate_save_attacks(
-    attack_names= args.attack_list, model= model,
+    attack_names= args.attack_list,
+    model= model,
     samples= loader_['test'], 
     classes= ['Normal', 'Tuberculosis'],
-    attack_image_dir= args.attack_images_dir
+    attack_image_dir= args.attack_images_dir,
+    epsilon=args.epsilons,
 )
