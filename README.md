@@ -74,7 +74,24 @@ python adversarial_detection.py --attack_name [attack_name] --clean_image_folder
 
 ## Citation
 ```
-TBA
+@misc{https://doi.org/10.48550/arxiv.2208.02851,
+  doi = {10.48550/ARXIV.2208.02851},
+  
+  url = {https://arxiv.org/abs/2208.02851},
+  
+  author = {Almalik, Faris and Yaqub, Mohammad and Nandakumar, Karthik},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Self-Ensembling Vision Transformer (SEViT) for Robust Medical Image Classification},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 ```
 
 # References
