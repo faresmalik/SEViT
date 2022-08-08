@@ -3,6 +3,8 @@ This repository includes the source code for MICCAI 2022 paper entitled: "Self-E
 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2208.02851)
 
+<hr />
+
 
 ![Method](Figures/Method.jpg)
 
