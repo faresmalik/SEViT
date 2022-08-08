@@ -1,6 +1,9 @@
 # Self-Ensembling Vision Transformer (SEViT) for Robust Medical Image Classification. 
 This repository includes the source code for MICCAI 2022 paper entitled: "Self-Ensembling Vision Transformer (SEViT) for Robust Medical Image Classification."
 
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2208.02851)
+
+
 ![Method](Figures/Method.jpg)
 
 ## Abstract 
@@ -76,23 +79,20 @@ python adversarial_detection.py --attack_name [attack_name] --clean_image_folder
 ```
 @misc{https://doi.org/10.48550/arxiv.2208.02851,
   doi = {10.48550/ARXIV.2208.02851},
-  
   url = {https://arxiv.org/abs/2208.02851},
-  
   author = {Almalik, Faris and Yaqub, Mohammad and Nandakumar, Karthik},
-  
   keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
   title = {Self-Ensembling Vision Transformer (SEViT) for Robust Medical Image Classification},
-  
   publisher = {arXiv},
-  
   year = {2022},
-  
   copyright = {Creative Commons Attribution 4.0 International}
 }
 
 ```
+
+## Contact
+If you have any questions, please create an issue on this repository or contact at faris.almalik@mbzuai.ac.ae.
+
 
 # References
 1. Tawsifur Rahman, Amith Khandakar, Muhammad A. Kadir, Khandaker R. Islam, Khandaker F. Islam, Zaid B. Mahbub, Mohamed Arselene Ayari, Muhammad E. H. Chowdhury. (2020) "Reliable Tuberculosis Detection using Chest X-ray with Deep Learning, Segmentation and Visualization". IEEE Access, Vol. 8, pp 191586 - 191601. DOI. 10.1109/ACCESS.2020.3031384.
